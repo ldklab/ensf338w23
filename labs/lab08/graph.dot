@@ -1,0 +1,25 @@
+strict digraph G {
+    7 [ label="Black Stump" ];
+    5 [ label="Hobart" ];
+    4 [ label="Melbourne" ];
+    0 [ label="Sydney" ];
+    8 [ label="Darwin" ];
+    2 [ label="Brisbane" ];
+    1 [ label="Canberra" ];
+    6 [ label="Perth" ];
+    3 [ label="Adelaide" ];
+    7 -> 8;
+    5 -> 4;
+    4 -> 5;
+    4 -> 1;
+    0 -> 4;
+    0 -> 1;
+    8 -> 1;
+    2 -> 0;
+    1 -> 0;
+    1 -> 2;
+    1 -> 3;
+    6 -> 7;
+    3 -> 4;
+    3 -> 6;
+}
